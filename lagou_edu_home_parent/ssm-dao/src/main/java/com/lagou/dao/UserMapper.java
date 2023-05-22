@@ -23,4 +23,6 @@ public interface UserMapper {
     public List<Menu> findSubMenuByPid(Integer pid);
 
     public List<Resource> findResourceByRole(List<Integer> ids);
+    
+    public List<Resource> findResourceByRole2(List<Integer> ids);
 }
